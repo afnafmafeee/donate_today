@@ -24,6 +24,9 @@ p {
     max-width: 1125px;
     margin: 0 auto;
 }
+.text-center {
+    text-align: center;
+}
 /* Hero area */
 #header {
     background-color: #FAFAFA;
@@ -68,4 +71,68 @@ p {
     color: #707070;
     border: none;
     background: none;
+}
+/* Donate */
+.common_text h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.46px;
+}
+.common_text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    max-width: 732px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* Amount */
+.amount {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+.amount div strong {
+    font-size: 30px;
+    font-weight: 700;   
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+}
+
+.amount div {
+    background: #FAFAFA;
+    padding: 32px 13px;
+    border-radius: 10px;
+}
+section#donate {
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+.select {
+    border: 1px solid #FF5959;
+    background:#FFEEEE !important ;
+}
+.select strong {
+    color: #FF5959;
+}
+.amount_box span {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #B3B3B3;
+    font-weight: 400;
+}
+.amount_box hr {
+    border: none;
+    background: #DADADA;
+    height: 1px;
+    width: 50%;
+    /* text-align: center; */
+    margin: auto;
+    /* display: inline-block; */
+}
+.amount_box button {
+    margin-top: 32px;
+}
+.amount_box {
+    margin-top: 57px;
 }
