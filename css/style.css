@@ -120,6 +120,8 @@ section#donate {
     font-family: 'Poppins';
     color: #B3B3B3;
     font-weight: 400;
+    display: inline-block;
+    margin-bottom: 12px;
 }
 .amount_box hr {
     border: none;
@@ -135,4 +137,40 @@ section#donate {
 }
 .amount_box {
     margin-top: 57px;
+}
+/* plan */
+#plan {
+    margin-bottom: 130px;
+}
+.inner_plan {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.item h4 { 
+    font-size: 24px;
+    font-weight: 600;
+}
+.item p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+.item i {
+    font-size: 56px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.item {
+    padding: 27px 34px;
+    border-radius: 5px;
+}
+.item_one {
+    background: #4F9DA61A;
+}
+.item_two {
+    background:rgba(255, 89, 89, 0.1);;
+}
+.item_three {
+    background: #fff4d6;
 }
